@@ -57,6 +57,9 @@ div.nav {
 .about p {
 	font-size: 20px;
 }
+.progress-bar {
+	text-shadow: #555 1px 1px 1px;
+}
 /*.lead {
 	margin: auto;
 	width: 60%;
