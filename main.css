@@ -1,0 +1,39 @@
+div.nav {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0,0,0,0.2);
+}
+.nav .container {
+	margin: auto;
+}
+.nav-pills>li>a {
+	border-radius: 0;
+}
+.nav a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.nav a:hover {
+	color: #23527c;
+}
+.jumbotron {
+	position: relative;
+	height: 500px;
+	background-image: url('images/double-alaskan-rainbow.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 20%;
+}
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+.jumbotron h1 {
+	font-size: 48px;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	color: #fff;
+}
+.jumbotron p {
+	color: #fff;
+}
