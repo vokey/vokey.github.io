@@ -2,36 +2,111 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Vokey @ Github</title>
+	<title>Vokey @ GitHub</title>
 	<link href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	<div class="nav">
+	<!-- Navigation bar -->
+	<div class="nav" id="nav">
 		<div class="container">
 			<ul class="nav nav-pills">
 				<li class="active"><a href="#">Vokey</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
-		</div>
-	</div>
+		</div><!-- end of container -->
+	</div><!-- end of nav -->
 
-	<div class="jumbotron">
+	<!-- Focus -->
+	<div class="main jumbotron">
 	<!-- Background Copyrght: -->
 	<!-- Full featured double rainbow in Wrangell-St. Elias National Park, Alaska. -->
 	<!-- By Eric Rolph at English Wikipedia (English Wikipedia) [CC BY-SA 2.5 (http://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons -->
 		<div class="container">
-			<h1>Hi! Nice to see you here!</h1>
+			<h1>Hi, nice to see you here!</h1>
 			<p>I'm a webdesign beginner, I'm still learning.</p>
 			<a class="btn btn-primary btn-lg" href="#">More About Me</a>
-		</div>
-	</div>
+		</div><!-- end of container -->
+	</div><!-- end of main jumbotron -->
+	
+	<!-- About -->
+	<div class="about" id="about">
+		<div class="container">
+			<h1>About Me</h1>
+			<p class="lead">I'm a webdesign beginner, keep learning every single day.<br />I don't have so much works now, but I'm already going to work on my portfolio.</p>
+			<p>My learning progress:</p>
+			<div class="row">
+				<div class="col-lg-6 col-sm-12">
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 85%">Photoshop</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 80%">HTML & CSS</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 50%">Javascript</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style="width: 40%">JQuery</div>
+					</div>
+				</div><!-- col -->
+				<div class="col-lg-6 col-sm-12">
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style="width: 30%">PHP</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style="width: 15%">Illustrator</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style="width: 10%">Python</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style="width: 5%">Mysql</div>
+					</div>		
+				</div><!-- col -->
+			</div><!-- end of row -->
+		</div><!-- end of container -->
+	</div><!-- end of about -->
+	
+	<!-- Contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<h1>Contact Me</h1>
+			<p>Contact me by following methods.</p>
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Facebook</h3>
+					<a href="https://www.facebook.com/vokeylee"><img src="images/facebook.png" alt="Facebook" height="200px"></a>
+				</div>
+				<div class="col-md-4">
+					<h3>Twitter</h3>
+					<a href="https://twitter.com/vokeylee"><img src="images/twitter.png" alt="Twitter" height="200px"></a>
+				</div>
+				<div class="col-md-4">
+					<h3>GitHub</h3>
+					<a href="https://github.com/vokey"><img src="images/github.png" alt="GitHub" height="200px"></a>
+				</div>
+			</div>
+		</div><!-- end of container -->
+	</div><!-- end of contact -->
 
+	<!-- Footer -->
 	<div class="footer">
 		<div class="container">
-			
-		</div>
-	</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p>Hosted by <a href="https://github.com" target="_blank">GitHub</a>.</p>
+					<p>&copy;2015 <a href="#">Vokey</a>.</p>
+				</div>
+				<div class="col-md-4">
+					
+				</div>
+				<div class="col-md-4">
+					
+				</div>
+			</div>
+		</div><!-- end of container -->
+	</div><!-- end of footer -->
 </body>
 </html>

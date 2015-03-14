@@ -1,12 +1,12 @@
+@import url('fonts.css');
+
 div.nav {
 	z-index: 1;
 	position: absolute;
 	width: 100%;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.4);
 }
-.nav .container {
-	margin: auto;
-}
+
 .nav-pills>li>a {
 	border-radius: 0;
 }
@@ -17,23 +17,74 @@ div.nav {
 .nav a:hover {
 	color: #23527c;
 }
-.jumbotron {
+
+/* main jumbotron */
+.main h1 {
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'Shift', Helvetica, Arial, Sans-serif;
+	text-shadow: rgba(0, 30, 84, .3) 0 -0.1em 0.1em;
+	color: #fff;
+}
+.main p {
+	color: #fff;
+	text-shadow: rgba(0, 30, 84, .5) 0.1em -0.1em 0.1em;
+}
+.main {
 	position: relative;
-	height: 500px;
 	background-image: url('images/double-alaskan-rainbow.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 20%;
 }
-.jumbotron .container {
+.main .container {
+	height: 400px;
 	position: relative;
 	top: 100px;
 }
-.jumbotron h1 {
-	font-size: 48px;
-	text-shadow: black 0.1em 0.1em 0.1em;
-	color: #fff;
+
+.main, .about, .contact {
+	border-bottom: 1px solid #e5e5e5;
 }
-.jumbotron p {
-	color: #fff;
+
+/* about */
+.about .container {
+	width: 60%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.about p {
+	font-size: 20px;
+}
+/*.lead {
+	margin: auto;
+	width: 60%;
+}*/
+/* contact */
+.contact .container {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.contact .col-md-4 {
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+/*.contact .col-md-4:first-child {
+	border-left: none;
+}*/
+.contact p {
+	font-size: 20px;
+}
+.contact img {
+	display: block;
+	margin: auto;
+	vertical-align: middle;
+}
+
+/* footer */
+.footer {
+	clear: both;
+	margin-top: 20px;
 }
