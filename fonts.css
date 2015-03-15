@@ -2,11 +2,11 @@
   font-family: 'Shift';
   font-style: normal;
   font-weight: normal;
-  src: url("fonts/shift.woff") format("woff");
+  src: url("http://7xi3jm.com1.z0.glb.clouddn.com/fonts/shift.woff") format("woff");
 }
 @font-face {
   font-family: 'Shift';
   font-style: normal;
   font-weight: bold;
-  src: url("fonts/shift-bold.woff") format("woff");
+  src: url("http://7xi3jm.com1.z0.glb.clouddn.com/fonts/shift-bold.woff") format("woff");
 }
