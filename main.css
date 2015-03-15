@@ -2,9 +2,9 @@
 
 div.nav {
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	width: 100%;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.8);
 }
 
 .nav-pills>li>a {
