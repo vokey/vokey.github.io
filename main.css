@@ -38,9 +38,9 @@ div.nav {
 	background-position: 50% 20%;
 }
 .main .container {
-	height: 400px;
 	position: relative;
 	top: 100px;
+	padding-bottom: 150px;
 }
 
 .main, .about, .contact {
